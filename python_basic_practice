@@ -1,0 +1,45 @@
+#문제1
+yd=91.44
+inch=2.54
+print(2.1*yd,'cm')
+print(10.5*inch,'cm')
+
+#문제2
+A= input('문자열을 입력하시오')
+print(A + A)
+
+#문제4
+wor= input('단어를 입력하시오')
+let= input('문자를 입력하시오')
+s=wor
+print(wor.find(let))
+
+#문제5
+# 모르겠어요
+str= input('문자열을 입력하시오')
+num=input('정수를 입력하시오')
+len(str)
+
+#문제6
+# 모르겠습니다
+a=input("문자열 입력")
+b=input("문자열 입력")
+c=input("문자열 입력")
+d=input("문자열 입력")
+e=input("문자열 입력")
+f=input("문자열 입력")
+g=input("문자열 입력")
+h=input("문자열 입력")
+i=input("문자열 입력")
+j=input("문자열 입력")
+list=[a,b,c,d,e,f,g,h,i,j]
+if l in list:
+    print(list)
+
+#문제7
+# 모르겠습니다...
+A= input("문자열을 입력하시오")
+B= input("문자열을 입력하시오")
+n= input("정수를 입력하시오")
+len(A)
+len(B)
