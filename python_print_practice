@@ -1,0 +1,68 @@
+#문제1
+kor=input('국어 점수를 입력하시오')
+mat=input('수학 점수를 입력하시오')
+eng=input('영어 점수를 입력하시오')
+k=int(kor)
+m=int(mat)
+e=int(eng)
+sum= k+m+e
+avg=sum/3
+print('kor',kor)
+print('mat',mat)
+print('eng',eng)
+print('sum',sum)
+print('avg',avg)
+
+#문제2
+print('item','count','price',sep='   ')
+# print('pen','20','100', sep='   ')
+# print('note','5','95', sep='   ')
+# print('eraser','110','97',sep='   ')
+
+#문제3
+a=int(input('정수를 입력하시오'))
+b=int(input('정수를 입려하시오'))
+if a>=b:
+    print('0')
+else:
+    print('1')
+
+#문제4
+# 문제가 이해가 안됍니다...
+
+#문제5
+a=int(input('정수를 입력하시오'))
+b=int(input('정수를 입력하시오'))
+c=int(input('정수를 입력하시오'))
+if a>b and a>c:
+    print('True')
+elif a<=b and a<=c:
+    print(False)
+elif a = b and a = c and b = c:
+    print('True')
+else:
+    print('False')
+
+# 문제6
+a=int(input('정수를 입력하시오'))
+b=int(input('정수를 입력하시오'))
+print(a,'/',b,'=',a/b,'...',a%b)
+
+#문제7
+width=int(input('가로의 길이를 입력하시오'))
+lenght=int(input('세로의 길이를 입력하시오'))
+w=width+5
+l=lenght*2
+print('width','=',w)
+print('lenght','=',l)
+print('area','=',w*l)
+
+#문제8
+minh=int(input('민수의 키를 입력하시오'))
+minw=int(input('민수의 몸무게를 입력하시오'))
+kah=int(input('가영이의 키를 입력하시오'))
+kaw=int(input('가영이의 몸무게를 입력하시오'))
+if minh>kah and minw>kaw:
+    print('True')
+else:
+    print('False')
